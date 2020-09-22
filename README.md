@@ -1,9 +1,13 @@
 # MIPS Virtual Machine
 Runs machine code for MIPS instruction set, no floating point registers
-## Usage instructions
+## Download instructions
 ```
 git clone https://github.com/keanu-thakalath/mips.git
 cd mips
+```
+
+#### Compile and run example with g++
+```
 g++ -o mips.exe main.cpp MIPS.cpp
 ./mips.exe machine-code\sample-program
 ```
